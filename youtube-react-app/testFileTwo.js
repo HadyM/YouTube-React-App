@@ -3,3 +3,9 @@ const Hello = () => {
 };
 
 Hello();
+
+const HelloTwo = () => {
+  console.log("how are you jamee??");
+};
+
+HelloTwo();
