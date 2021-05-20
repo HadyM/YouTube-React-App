@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Jamee from "../Assets/jamee.jpg";
+import Hady from "../Assets/hady.jpeg";
 
 export default class About extends Component {
   render() {
@@ -18,7 +19,11 @@ export default class About extends Component {
         <br />
         <div className="info">
           <h3>Hady Mohamed</h3>
-          <img src="" alt="headshot" />
+          <img
+            src={Hady}
+            alt="headshot"
+            style={{ width: "500px", height: "500px" }}
+          />
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
             accusantium animi ab eius voluptatibus ullam qui quae explicabo
