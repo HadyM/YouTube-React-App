@@ -1,0 +1,27 @@
+.Links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.NavBar {
+  background: rgb(145, 4, 4);
+  height: 120px;
+  box-shadow: 1px 1px 6px 1px rgb(61, 59, 59);
+}
+
+.Links :link,
+.Links :visited {
+  text-decoration: none;
+  color: rgb(2, 2, 29);
+  text-shadow: 2px 2px #3c3b3f;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.Links img {
+  border: 2px solid rgb(148, 7, 7);
+  border-radius: 35px;
+  width: 200px;
+}

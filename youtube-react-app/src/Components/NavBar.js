@@ -10,9 +10,10 @@ const NavBar = () => {
         <img
           src={YouTube}
           alt="youtube-logo"
-          style={{ width: "140px", height: "60px" }}
+          style={{ height: "60px" }}
         />{" "}
-        <Link to="/">Home</Link> <Link to="/about">About</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
       </div>
     </div>
   );
