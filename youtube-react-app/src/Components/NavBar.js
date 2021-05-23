@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import YouTube from "../Assets/youtube-logo.png";
-import "./NavBar.css"
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -12,8 +12,7 @@ const NavBar = () => {
           alt="youtube-logo"
           style={{ width: "140px", height: "60px" }}
         />{" "}
-        <Link to="/home">Home</Link>{" "}
-        <Link to="/about">About</Link>
+        <Link to="/">Home</Link> <Link to="/about">About</Link>
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 import { Switch, Route } from "react-router-dom";
-import NavBar from "./Components/NavBar";
-import Home from "./Components/Home";
-import About from "./Components/About";
+import NavBar from "./Components/NavBar.js";
+import Home from "./Components/Home.js";
+import About from "./Components/About.js";
+import Videos from "./Components/Videos.js";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} className="Home" />
           <Route path="/about" component={About} className="About" />
+          <Route path="/videos/:id" component={Videos} className="Videos" />
         </Switch>
       </main>
     </div>

@@ -5,13 +5,13 @@ import axios from "axios";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
-const searchResults = async (props) => {
+const searchResults = async (searchInput) => {
   const { data } = await axios.get(
-    `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${props}&type=video&key=${apiKey}`,
+    `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${searchInput}&type=video&key=${apiKey}`
   );
   return data.items;
 };
-// change "props" to another label when creating value to be passed down from search
+
 const youTubeAPI = {
   searchResults,
 };
