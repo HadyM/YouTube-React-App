@@ -27,9 +27,9 @@
 }
 
 .errorClass {
+  display: inline-block;
+  align-items: center;
   margin-top: 35px;
-  margin-left: 390px;
-  width: 665px;
   height: 45px;
   font-size: x-large;
   font-family: fantasy;
@@ -49,4 +49,19 @@
 li {
   list-style: none;
   color: darkred;
+}
+
+@media screen and (max-width: 570px) {
+  .errorClass {
+    font-size: 16px;
+  }
+
+  .input {
+    width: 250px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
 }
