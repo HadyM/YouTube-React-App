@@ -11,7 +11,7 @@ export class Videos extends Component {
       },
     };
     return (
-      <div>
+      <div className="YouTube">
         <YouTube videoId={this.props.match.params.id} opts={opts} />
       </div>
     );

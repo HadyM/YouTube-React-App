@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import youTubeAPI from "./youtubeAPIs.js";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 export default class Home extends Component {
   constructor() {
@@ -52,7 +53,7 @@ export default class Home extends Component {
               alt={video.snippet.description}
               style={{ width: "200px", height: "200px" }}
             />
-            <h4>{video.snippet.title}</h4>
+            <h4 className="title">{video.snippet.title}</h4>
           </li>
         </Link>
       );
@@ -65,16 +66,19 @@ export default class Home extends Component {
             type="text"
             placeholder="Search for a video"
             value={searchInput}
+            className="input"
           />
-          <button type="submit">Search</button>
+          <button type="submit" className="button">
+            Search
+          </button>
         </form>
-        <div>
+        <div className={error ? "errorClass" : null}>
           {error
             ? "No Search Results Yet!, Please submit a search above!"
             : null}
         </div>
 
-        <div>{videoListItems}</div>
+        <div className="video">{videoListItems}</div>
       </div>
     );
   }

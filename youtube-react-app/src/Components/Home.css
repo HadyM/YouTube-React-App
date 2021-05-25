@@ -1,0 +1,52 @@
+.home {
+  margin-top: 50px;
+}
+
+.input {
+  width: 550px;
+  height: 25px;
+  border: 1px solid rgb(145, 4, 4);
+  border-radius: 5px;
+  background: rgb(2, 2, 29);
+  color: rgb(145, 4, 4);
+}
+
+::placeholder {
+  color: rgb(145, 4, 4);
+  font-size: medium;
+}
+
+.button {
+  margin-left: 15px;
+  height: 30px;
+  border: 1px solid rgb(145, 4, 4);
+  border-radius: 5px;
+  color: rgb(145, 4, 4);
+  background: rgb(2, 2, 29);
+  font-size: medium;
+}
+
+.errorClass {
+  margin-top: 35px;
+  margin-left: 390px;
+  width: 665px;
+  height: 45px;
+  font-size: x-large;
+  font-family: fantasy;
+  background: rgb(148, 143, 143);
+}
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+
+.YouTube {
+  margin-top: 45px;
+}
+
+li {
+  list-style: none;
+  color: darkred;
+}
