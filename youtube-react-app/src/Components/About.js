@@ -33,7 +33,8 @@ export default class About extends Component {
               in this coming year I will be learning programming languages such
               as CSS, JavaScript, Html, SQL, Node.js, Express, React, and Redux.
               <br />
-              <br />I am bilingual, I speak both Arabic and English fluently. I
+              <br />
+              I am bilingual, I speak both Arabic and English fluently. I
               am also a big gamer and I like to play mostly mmorpg type games,
               but I will try any game at least once and then see if I like it,
               then I'll play it again and if not at least I learned from that
@@ -43,7 +44,7 @@ export default class About extends Component {
               percent or then I feel there wouldn't even be a point in trying,
               so I always give my all.
             </h4>
-            <a target="_blank" href="https://github.com/HadyM">
+            <a target="_blank" rel="noreferrer" href="https://github.com/HadyM">
               Link to GitHub
             </a>
           </div>
@@ -74,7 +75,11 @@ export default class About extends Component {
               in a career path that values progress, and moving towards a more
               just, greener, and better world.
             </h4>
-            <a target="_blank" href="https://github.com/jamee-maker">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/jamee-maker"
+            >
               Link to GitHub
             </a>
           </div>
