@@ -47,13 +47,20 @@
 }
 
 .YouTubeSnippet {
-  width: 490;
-  height: 740;
+  width: 990px;
+  height: 640px;
 }
 
 li {
   list-style: none;
   color: darkred;
+}
+
+@media screen and (max-width: 1000px) {
+  .YouTubeSnippet {
+    width: 690px;
+    height: 440px;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -73,5 +80,12 @@ li {
   .YouTubeSnippet {
     width: 300px;
     height: 550px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .YouTubeSnippet {
+    width: 250px;
+    height: 350px;
   }
 }
