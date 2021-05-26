@@ -12,7 +12,7 @@ Link to web application: https://youtube-react-app-group-project.netlify.app/abo
   
   ### 2. Description of the application
 <p>
-The user submits a video name, an api call is made to the youtube api that returns a list of videos matching the user input. Once a video is clicked, the user will be directed to the video page component based on the id of that video. There the user will have the option of watching and sharing the video.
+The user submits a video name, an api call is made to the youtube api that returns a list of videos matching the user input. Once a video is clicked, the user will be directed to the video page component based on the id of that video. There, the user will have the option of watching and sharing the video.
   </p>  
   
   
