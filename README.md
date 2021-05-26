@@ -2,7 +2,7 @@
 
 
 ### 1. Running the application
-Link to web application: https://youtube-react-app-group-project.netlify.app/about
+Link to web application: https://youtube-react-app-group-project.netlify.app/
 <ul>
   <li>Enter a video title into the search bar to search for youtube videos</li>
   <li>Click on a video from the list that pops up to watch that video</li>
